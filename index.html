@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Typeform Embed Example</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open Webpage on Button Click</title>
+  <style>
+    /* Styling for the button */
+    .custom-button {
+      font-size: 20px;
+      font-weight: bold;
+      border: none;
+      border-radius: 100px; /* Rounded corners */
+      background-color: #42279C; /* Background color */
+      color: #ffffff; /* Text color */
+      padding: 12px 25px; /* Padding */
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
 
-<div data-tf-live="01HTPSQ1B0SYC91JBRJMMYC5YQ"></div>
-<script src="https://embed.typeform.com/next/embed.js"></script>
+  <!-- Button to trigger opening webpage -->
+  <button class="custom-button" onclick="openWebpage()">Submit Use Case</button>
+
+  <script>
+    // Function to open the webpage
+    function openWebpage() {
+      // Replace 'https://example.com' with the URL of the webpage you want to open
+      window.open('https://9yy4tb3otdy.typeform.com/to/XqiYdHcd', '_blank');
+    }
+  </script>
 
 </body>
 </html>
